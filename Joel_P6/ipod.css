@@ -1,0 +1,333 @@
+/*
+	Global classes
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	background-color: rgba(96,147,154,255);
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+}
+
+.head-bar-player {
+	background-color: rgba(96,147,154,255);
+	color: white;
+	padding-left: 10%;
+	height: 40px;
+}
+
+.head-bar-song {
+	background-color: rgba(96,147,154,255);
+	color: white;
+	padding-left: 10%;
+}
+
+
+.upperLeft {
+
+}
+
+.back-button {
+	padding-top: 10px;
+	margin-left: -20px;
+	text-shadow: 1px 1px 1px black;
+}
+
+/*
+	Albums section
+			*/
+.albums-album-wrapper {
+	width: 100%;
+
+}
+
+.albums-album-art {
+	width: 90%;
+	padding-left: 5%;
+}
+
+.albums-album {
+	width: 50%;
+	float: left;
+	padding-bottom: 35px;
+}
+
+.albums-art-name-artist {
+	width: 90%;
+}
+
+.albums-album-name {
+	margin-top: 15px;
+	text-align: center;
+	margin-bottom: -12px;
+
+}
+
+.albums-artist-name {
+	text-align: center;
+	font-style: italic;
+	font-size: 13px;
+}
+
+/*
+	Songs section
+			*/
+.songs-info-wrapper {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.songs-album-pic {
+	width: 50%;
+	float: left;
+}
+
+.songs-album-art {
+	width: 90%;
+	padding-left: 5%;
+}
+
+.songs-artist-name {
+	font-style: italic;
+}
+
+.songs-container {
+	margin-bottom: -26px;
+	padding-left: 10px;
+}
+
+.songs-container10 {
+	margin-bottom: -28px;
+	padding-left: 1px;
+}
+
+.songs-name {
+	display: inline-block;
+	border: 1px solid lightgrey;
+	width: 88%;
+	padding-left: 5px;
+}
+
+.songs-name10 {
+	display: inline-block;
+	border: 1px solid lightgrey;
+	width: 85%;
+	padding-left: 5px;
+}
+
+.songs-num {
+	display: inline-block;
+}
+
+#back {
+	text-decoration: none;
+	color: white;
+}
+
+#linkSong {
+	text-decoration: none;
+	color: blue;
+}
+
+/*
+	Player section
+			*/
+.player-album-art {
+	width: 80%;
+	padding-left: 10%;
+	padding-top: 10%;
+}
+
+.player-song-info {
+	text-align: center;
+}
+
+#song-title{
+	font-size: 20px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+}
+
+#song-artist {
+	font-style: italic;
+	color: rgba(96,147,154,255);
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+#prev-btn {
+	width: 35px;
+	height: 28px;
+	float: left;
+	border-width: 1px;
+	border-style: solid;
+	margin-left: 93px;
+	border-radius: 3px;
+	text-align: center;
+	padding-top: 2px;
+	background-color: #EFEFEF;
+	border-color: grey;
+}
+
+#switch-btn {
+	width: 35px;
+	height: 28px;
+	float: right;
+	border-width: 1px;
+	border-style: solid;
+	margin-right: 3px;
+	border-radius: 3px;
+	text-align: center;
+	padding-top: 2px;
+	background-color: #EFEFEF;
+	border-color: grey;
+}
+
+#next-btn {
+	width: 35px;
+	height: 28px;
+	float: right;
+	border-width: 1px;
+	border-style: solid;
+	margin-right: 90px;
+	border-radius: 3px;
+	text-align: center;
+	padding-top: 2px;
+	background-color: #EFEFEF;
+	border-color: grey;
+}
+
+.player-controls {
+	width: 100%;
+}
+
+.time {
+	width: 100%;
+}
+
+#time-elapsed {
+	float: left;
+	width: 50%;
+	font-size: 13px;
+	margin-left: 25px;
+}
+
+.time-keeper {
+	text-align: center;
+	width: 80%;
+	margin-left: 25px;
+	height: 5px;
+}
+
+#time-total {
+	width: 50%;
+	float: right;
+	font-size: 13px;
+	margin-right: -85px;
+}
+
+#volume-down {
+	margin-top: 18px;
+	width: 95px;
+	margin-left: -25px;
+	margin-right: 35px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	border-radius: 5px;
+}
+
+#volume-up {
+	margin-top: 18px;
+	width: 95px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	border-radius: 5px;
+}
+
+#vl0 {
+
+	height: 6px;
+	width: 24px;
+	border-width: 1px;
+	border-style: solid;
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+	border-color: grey;
+}
+
+#vl1 {
+	height: 6px;
+	width: 24px;
+	border-width: 1px;
+	border-style: solid;
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+	border-color: grey;
+}
+
+#vl2 {
+	height: 6px;
+	width: 24px;
+	border-width: 1px;
+	border-style: solid;
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+	border-color: grey;
+}
+
+#vl3 {
+	height: 6px;
+	width: 24px;
+	border-width: 1px;
+	border-style: solid;
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+	border-color: grey;
+}
+
+#vl4 {
+	height: 6px;
+	width: 24px;
+	border-width: 1px;
+	border-style: solid;
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+	border-color: grey;
+}
+
+#vl5 {
+	height: 6px;
+	width: 24px;
+	border-width: 1px;
+	border-style: solid;
+	float: right;
+	margin-right: 55px;
+	margin-top: 10px;
+	border-color: grey;
+}
+
+.vol {
+	margin-left: 35px;
+	float: left;
+}
